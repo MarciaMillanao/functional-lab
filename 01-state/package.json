@@ -1,0 +1,21 @@
+{
+  "name": "01-state",
+  "version": "1.0.0",
+  "description": "Primeros ejercicios de programación funcional",
+  "main": "lowercaser.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Programación",
+    "funcional"
+  ],
+  "author": "Marcia Millanao",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.1.0"
+  }
+}
