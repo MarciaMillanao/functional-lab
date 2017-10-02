@@ -1,0 +1,17 @@
+{
+  "name": "03-parse-items",
+  "version": "1.0.0",
+  "description": "Tercer Ejercicio",
+  "main": "parseItems.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Marcia Millanao",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
