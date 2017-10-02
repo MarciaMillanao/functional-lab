@@ -1,0 +1,17 @@
+{
+  "name": "00-apply-discount",
+  "version": "1.0.0",
+  "description": "Ejercicio uno",
+  "main": "applyDiscount.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Marcia Millanao",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
