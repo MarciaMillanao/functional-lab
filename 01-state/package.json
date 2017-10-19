@@ -1,7 +1,7 @@
 {
   "name": "01-state",
-  "version": "1.0.0",
-  "description": "Primeros ejercicios de programación funcional",
+  "version": "0.0.1",
+  "description": "Primeros ejercicios de programacion funcional",
   "main": "lowercaser.js",
   "directories": {
     "test": "test"

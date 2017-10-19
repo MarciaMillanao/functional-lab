@@ -13,3 +13,4 @@ test('deberia fallar cuando ingresamos un numero', () =>{
 		lowercaser(actual)
 	}).toThrow()
 })
+
