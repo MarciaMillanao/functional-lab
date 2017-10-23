@@ -1,4 +1,5 @@
 const solution = require('../index')
+
 describe('Homework', () => {
     test('Ejercicios 1: factorial de 5 es 120', () => {
         const actual = solution.factorial(5)
@@ -6,9 +7,9 @@ describe('Homework', () => {
 
         expect(actual).toEqual(expected)
     })
-    test('Ejercicios 2: fibonacci de 10 debe ser 55', () => {
+    test('Ejercicios 2: fibonacci de 10 debe ser 89', () => {
         const actual = solution.fibonacci(10)
-        const expected = 55
+        const expected = 89
 
         expect(actual).toEqual(expected)
     })
