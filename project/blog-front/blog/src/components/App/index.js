@@ -4,6 +4,8 @@ import './App.css'
 import classnames from 'classnames'
 import { Link } from 'react-router-dom'
 
+import { getPosts } from'../../blog-api'//esta es la ruta de mis get y post
+
 class App extends Component {
   constructor (props) {
     super(props)
@@ -13,9 +15,13 @@ class App extends Component {
   }
 
   componentWillMount() {
-    //
     // TÚ CÓDIGO VA AQUÍ
-    //
+    getPosts()
+      .then(resp => {
+        this.setState({
+          posts: resp,
+        })
+      })
   }
 
   render() {
